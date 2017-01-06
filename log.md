@@ -26,3 +26,17 @@
 - Everything feels so rusty. Even just getting a git repo started.
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+
+### Day 2: January 5th, Thursday
+
+**Today's Progress**:
+- Looked up how to read and write files in python ([source](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)) and then realized this isn't the kind of reading I'm interested in b/c I'm not reading in text files, but rather images (binary files)
+- Was going around in circles looking for file object methods till I came upon [this](http://stackoverflow.com/questions/27580917/get-file-modification-date-in-python) and learned that getting information like the timestamp of a file isn't a method on the file object but from the os.path module T_T
+- [This](http://stackoverflow.com/a/39501288) seemed like the best approach for getting the creation date (and modification date instead if can't get creation date) of a file in a cross-platform way.
+- Now to figure out how one sets the creation time on files...well, I don't need to set the creation time, just last modified time since that's the usual field you're allowed to sort files w/. Saw from [here](http://stackoverflow.com/a/38754092) and [here](https://www.tutorialspoint.com/python/os_utime.htm) that we can use ```os.utime(path_to_file, (access_time, modification_time))``` using Unix epoch time (seconds since epoch) to set the timestamps.
+
+**Thoughts**:
+- Not very productive today. So easily distracted, and it's only day 2. XP
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
