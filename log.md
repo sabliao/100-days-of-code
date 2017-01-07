@@ -40,3 +40,14 @@
 - Not very productive today. So easily distracted, and it's only day 2. XP
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+### Day 3: January 6th, Friday
+
+**Today's Progress**:
+- Looked up how to use regular expressions in python so that I can find a pattern in a string ([source](https://docs.python.org/3/howto/regex.html)).
+- Just realized that the pictures have different timestamps based on time zone too...eric's pics are 2 hrs behind the timestamps implied by Jason's pics' filenames since Eric's camera was probably on Central time instead of Pacific time. And then some of Eric's pics no longer have their original modification timestamp and instead have one from when the trip was already over (maybe when Eric uploaded to dropbox?), so there's that batch that I can't help w/. And then there's DFan's, which look like they're 6 hrs ahead of Jason's...oh well, this project is just to get my brain working and not to fix all timestamp problems, so let's see what the best we can do is~
+
+**Thoughts**:
+- Squished a bit of time in btwn work and leaving for the LA Zoo Lights event; wasn't technically a full hr today...mainly just realized/thought about "Today's Progress" point 2
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
