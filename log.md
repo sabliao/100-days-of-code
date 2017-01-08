@@ -27,7 +27,6 @@
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
 
-
 ### Day 2: January 5th, Thursday
 
 **Today's Progress**:
@@ -49,5 +48,18 @@
 
 **Thoughts**:
 - Squished a bit of time in btwn work and leaving for the LA Zoo Lights event; wasn't technically a full hr today...mainly just realized/thought about "Today's Progress" point 2
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+### Day 4: January 7th, Saturday
+
+**Today's Progress**:
+- Was trying to figure out how to take the components of a date (e.g. year, month, hour) and change it to unix epoch time when I came upon the handy table found on [this page](https://docs.python.org/2/library/time.html). Gotta use time module's [mktime()](https://docs.python.org/2/library/time.html#time.mktime).
+- Found [this site](http://www.pyregex.com/) helpful for testing out regular expression matching.
+- Found the documentation for the match object returned for [match()](https://docs.python.org/3/library/re.html#match-objects).
+
+**Thoughts**:
+- Better focused today, but definitely not an hr's worth of focus though that much time had passed.
+- Writing steps in "Today's Progress" is helpful to remember what I was last trying to do and keeps me from falling off the rails too far.
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
