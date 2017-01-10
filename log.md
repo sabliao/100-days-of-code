@@ -63,3 +63,38 @@
 - Writing steps in "Today's Progress" is helpful to remember what I was last trying to do and keeps me from falling off the rails too far.
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+### Day 5: January 9th, Monday
+
+**Today's Progress**:
+- Ah yes, forgot I ended w/ an error. Found this helpful [answer](http://stackoverflow.com/a/9551570). I think I'll take the suggestion of using datetime.datetime() and calling its timetuple() method to get a time.struct_time.
+- I'm using this [site](http://www.epochconverter.com/) to help me see if the unix epoch timestamps that get spit out match the date they should be.
+- Just realized that in python3, you have to use print as a function (e.g. print('hello')) instead of option to use print as a statement (e.g. print 'hello'). Learned from this [thread](http://stackoverflow.com/questions/28225881/python-string-interpolation-syntax-error).
+- Now to make this work for a whole folder as well as the individual file path passed in. I need to know how to extract the directory/folder name from the path passed in, and it looks like [os.path](https://docs.python.org/3/library/os.path.html) has the necessary methods, like [split()](https://docs.python.org/3/library/os.path.html#os.path.split).
+- I tried testing os.path.isdir() on "~/Downloads", but it gives False for that...[this](http://stackoverflow.com/questions/36684443/python-3-an-existing-file-not-being-identified-using-os-path-isfile-function) was a good thread to explain why ~ isn't recognized as home (it's cuz it's a shell variable) and what an alternative could be (e.g. use os.path.expanduser()).
+- This [thread](http://stackoverflow.com/questions/3964681/find-all-files-in-directory-with-extension-txt-in-python) was helpful to show how one might get all the files of a type found in a directory. I'm going to go w/ the os.walk method from this [answer](http://stackoverflow.com/a/3964691) since it allows you to traverse subdirectories too (since I'll probably want to locally split up the pictures by the person who took them since some may have a similar naming convention but require different 'fixes' to get the order right).
+- Hmm, I was able to run the script w/o error on my Downloads folder on my Thinkpad, and it seemed to go through all the jpg's that matched the pattern I was looking for. I moved one of the jpg's into a subfolder to see if it'd go through the subdirectories fine, which it did, but I saw unexpected output: since I had already run the folder through the script, I had expected the 'Before' and 'After' last-modified timestamps to look the same, but the output looked the same as when I ran the script the first time. Maybe I need to do a save of some sort to make sure the changes 'stick' to the file? But none of the examples for os.utime() implied that would be required. Mmm, the output is questionable too; looks like the 'after' timestamp of the file previously processed is the 'before' timestamp of the currently processed file:
+ ```
+ Before: 11/08/2016 08:40:34 PM
+ After: 04/30/2016 08:55:13 AM
+ Before: 04/30/2016 08:55:13 AM
+ After: 11/08/2016 09:02:20 AM
+ Before: 11/08/2016 09:02:20 AM
+ After: 11/08/2016 10:28:18 AM
+ Before: 11/08/2016 10:28:18 AM
+ After: 03/19/2016 06:36:18 PM
+ Before: 03/19/2016 06:36:18 PM
+ After: 01/30/2016 02:25:19 PM
+ Before: 01/30/2016 02:25:19 PM
+ After: 04/30/2016 08:58:58 AM
+ Before: 04/30/2016 08:58:58 AM
+ After: 11/08/2016 08:40:34 PM
+ ```
+ Ohhhh, just realized it's cuz I passed the path of 1 jpg file to the script, so it's just passing *that* particular path each time to get its timestamp modified. XP I need to change it so that I'm passing the path that's the result of joining the directory name, and the filename.
+- Hmm, another problem: why doesn't os.path.isfile(filename) evaluate to True if it's indeed a ... ohhh, I need the full path for os.path.isfile() to be able to check whether it's a file.
+- Next task: figure out what needs to be 'fixed' for the others' pics and how it can be done.
+
+**Thoughts**:
+- I definitely enjoy any kind of work more when goals are clear and concrete, and I can see the way forward.
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
