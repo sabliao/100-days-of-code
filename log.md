@@ -98,3 +98,15 @@
 - I definitely enjoy any kind of work more when goals are clear and concrete, and I can see the way forward.
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+### Day 6: January 10th, Tuesday
+
+**Today's Progress**:
+- Yeah, looks like echow's pics are 2 hrs behind. Oh wait, argh, some of his are just way off cuz it was modified somehow at a later date (uploaded later?). DFan's pics actually have the timestamp embedded in the names like Jason's but w/ "IMG_" at the beginning, so those I can alter. Hmm, maybe for echow's pics that are really off, maybe if I see that the the pic's timestamp is after 11/27, I'll look for the previous pic ('previous' in terms of name b/c the files are named in order taken) that had a timestamp before 11/27 and use that as the timestamp (I can probably do a running update of 'last timestamp' for echow's pics). Yay, we have a plan.
+- Note: some of echow's pics end w/ uppercase JPG instead of jpg, so need a case-insensitive match.
+- Next: need to see how to add 2hrs to an mtime and need to get update pics 'in future' to last valid timestamp.
+
+**Thoughts**:
+- Didn't quite code for a full hour, but I was probably as 'productive' as I was in previous days just due to the concentration given to crank stuff out in the limited time I had before leaving to watch La La Land in Ontario Mills.
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
