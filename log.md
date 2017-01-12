@@ -104,9 +104,21 @@
 **Today's Progress**:
 - Yeah, looks like echow's pics are 2 hrs behind. Oh wait, argh, some of his are just way off cuz it was modified somehow at a later date (uploaded later?). DFan's pics actually have the timestamp embedded in the names like Jason's but w/ "IMG_" at the beginning, so those I can alter. Hmm, maybe for echow's pics that are really off, maybe if I see that the the pic's timestamp is after 11/27, I'll look for the previous pic ('previous' in terms of name b/c the files are named in order taken) that had a timestamp before 11/27 and use that as the timestamp (I can probably do a running update of 'last timestamp' for echow's pics). Yay, we have a plan.
 - Note: some of echow's pics end w/ uppercase JPG instead of jpg, so need a case-insensitive match.
-- Next: need to see how to add 2hrs to an mtime and need to get update pics 'in future' to last valid timestamp.
+- Next: need to see how to add 2hrs to an mtime and need to update pics 'in future' to last valid timestamp.
 
 **Thoughts**:
-- Didn't quite code for a full hour, but I was probably as 'productive' as I was in previous days just due to the concentration given to crank stuff out in the limited time I had before leaving to watch La La Land in Ontario Mills.
+- Didn't quite code for a full hour, but I was probably as 'productive' as I was in previous days just due to the concentration given to crank stuff out in the limited time I had before leaving to watch La La Land in Ontario Mills, which was worth the rush. (;
+
+**Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+### Day 7: January 11th, Wednesday
+
+**Today's Progress**:
+- Saw this [answer](http://stackoverflow.com/a/13685221/2313357) about using e.g. timedelta(hours=2) to add 2 hrs to datetime object, but I'll still need to turn that into a struct_time to pass to mktime() to get unix epoch time. Oh wait, oops. I need to know how to add hours to a struct_time cuz that's what we get from mtime of a file. Since unix time is just seconds, I can probably just add 2 hrs by multiplying 2 * 60 * 60 to get seconds in 2 hrs. Yeah, seems to be the case by checking on [pythonanywhere](https://www.pythonanywhere.com).
+- Realized my logic for processing eric's photos was flawed cuz I keep resetting the last valid timestamp after each photo, so it's always the default timestamp instead of the desired constantly-updated one. XP Hmm, how do I keep track of a variable outside the scope of my function...I could turn this processor into a class and have it keep a variable? Or rather, just the last_valid_timestamp...maybe I'll just have an object that I pass...yeah.
+- Lol, I was thinking, "this is the moment of truth..." in preparation to run the script on the folder of pics I selected from the batch of hiking photos, and then I saw it simply exited after the first print statement...so something clearly did not work. Ah, cuz I forgot the trailing slash to let my script know it's the directory. Whee! It [sorta] solved my photo ordering problem! At least the pics have timestamps closer to what they should be though there were still a few that were pretty off. Oh well. Gotta think of sthg new tmrw!
+
+**Thoughts**:
+- Didn't think it'd take me so long, but at least the first simple project is finally at a mediocre level!
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
