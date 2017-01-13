@@ -1,5 +1,6 @@
 # 100 Days Of Code - Log
 
+##New Project: Fix Pic Timestamp
 ### Day 1: January 4th, Wednesday
 
 **Today's Progress**:
@@ -122,3 +123,21 @@
 - Didn't think it'd take me so long, but at least the first simple project is finally at a mediocre level!
 
 **Link(s) to work**: [Fix Pic Timestamp](https://github.com/sabliao/fix-pic-timestamp)
+
+##New Project: Can I Eat It? (Web)
+### Day 8: January 12th, Thursday
+
+**Today's Progress**:
+- I've decided my next project will be the start of a web version of an app my friend jokingly said I should make: Can I Eat It?
+- Trying to find a mini-tutorial that'd help me setup a reactjs app w/ webpack, babel, etc, and found 3:
+    - [codementor](https://www.codementor.io/tamizhvendan/tutorials/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr)
+    - [freecodecamp](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Setting-Up-A-React-ES6-Webpack-Project)
+    - [tylermcginnis](https://tylermcginnis.com/react-js-tutorial-1-5-utilizing-webpack-and-babel-to-build-a-react-js-app/) (one I remember going through)
+
+ I'll just start w/ freecodecamp b/c it has the most recent date of the 3 (Aug 2016).
+- Got as far as the end of the tutorial for setting up a project. Maybe next time can look up how you structure a multi-file react app.
+
+**Thoughts**:
+- I hope I don't keep looking up tutorials at the cost of forgetting to code, but I want to do things the "right" way and have the framework in place.
+
+**Link(s) to work**: [Can I Eat It? (Web)](https://github.com/sabliao/can-i-eat-it-web)
