@@ -141,3 +141,16 @@
 - I hope I don't keep looking up tutorials at the cost of forgetting to code, but I want to do things the "right" way and have the framework in place.
 
 **Link(s) to work**: [Can I Eat It? (Web)](https://github.com/sabliao/can-i-eat-it-web)
+
+### Day 9: January 14th, Saturday
+
+**Today's Progress**:
+- I'm lower energy today and am not sure I'll be able to focus enough to have a productive time if I need to follow some other post about how to set up a multi-file react app, so I'm going to continue w/ the FreeCodeCamp track, esp. since the next item on the list is to build a tribute page, and at least that's more than just following a tutorial. XP
+- Wanted to know how to do rounded corners for a background like in the example ([answer](http://stackoverflow.com/a/6484880)).
+- Hmm, I should look up what the standards are for showing html elements (I already forgot...).
+- Nevermind, stopped work to have phone call w/ friend.
+
+**Thoughts**:
+- It's so easy for me to skip/forget a day if time for this isn't scheduled (since it's not part of some daily routine that happens at the same time every day, which would make it easier to remember).
+
+**Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
