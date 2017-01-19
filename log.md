@@ -154,3 +154,17 @@
 - It's so easy for me to skip/forget a day if time for this isn't scheduled (since it's not part of some daily routine that happens at the same time every day, which would make it easier to remember).
 
 **Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
+
+### Day 9.5-9.9: January 15th, Sunday; January 16th, Monday; January 18th, Wednesday
+
+**Today's Progress**:
+- Reading [this](https://www.smashingmagazine.com/2009/07/html5-and-the-future-of-the-web/) and [this](https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/) to learn of some semantic html elements.
+- [Re]learned how to center an img by seeing this [jsfiddle](http://jsfiddle.net/3k3CC/1866/) example: you put the img in a div, set auto for margin-left an margin-right on the containing div, make img a block element, and then set img margin to auto.
+- Next, figure out how to make text below image the same width as the image w/o setting a width on the image.
+
+**Thoughts**:
+- At the rate I've been going, this challenge may end up taking the whole year...but I do think relationships are still a higher priority, and however many mistakes I make on the way towards learning to find balance and boundaries, I'm still praying God will make something beautiful out of my proffered crumbs.
+- An hr of coding is not very productive when a sudden mental reminder to do X flashes across the display of one's consciousness every 5 min.
+- Sore muscles, cold extremities, and an emptying stomach are quite the distractions.
+
+**Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
