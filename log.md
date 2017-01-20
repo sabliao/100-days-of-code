@@ -142,6 +142,7 @@
 
 **Link(s) to work**: [Can I Eat It? (Web)](https://github.com/sabliao/can-i-eat-it-web)
 
+##New Project: Tribute Page (FreeCodeCamp)
 ### Day 9: January 14th, Saturday
 
 **Today's Progress**:
@@ -166,5 +167,17 @@
 - At the rate I've been going, this challenge may end up taking the whole year...but I do think relationships are still a higher priority, and however many mistakes I make on the way towards learning to find balance and boundaries, I'm still praying God will make something beautiful out of my proffered crumbs.
 - An hr of coding is not very productive when a sudden mental reminder to do X flashes across the display of one's consciousness every 5 min.
 - Sore muscles, cold extremities, and an emptying stomach are quite the distractions.
+
+**Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
+
+### Day 10: January 19th, Thursday
+
+**Today's Progress**:
+- [This](http://stackoverflow.com/a/618737) gave me a starting point for how to get the text and main image the same width, but then I realized I could just use padding on my 'shell' element (the element w/ the light gray background inside which all my content would be placed).
+- Finally finished the tribute page! Didn't expect this to take more than 1 night for sure...
+
+**Thoughts**:
+- It's not a binary choice between improving yourself career-wise and placing God and people above that.
+- Lol, I spent most of today's coding period using my rusty writing skills to write about Naruto's creator, Masashi Kishimoto.
 
 **Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
