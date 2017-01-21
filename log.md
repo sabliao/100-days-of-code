@@ -181,3 +181,16 @@
 - Lol, I spent most of today's coding period using my rusty writing skills to write about Naruto's creator, Masashi Kishimoto.
 
 **Link(s) to work**: [Tribute Page](http://codepen.io/sabliao/full/qRadMr/)
+
+##New Project: Personal Portfolio Webpage (FreeCodeCamp)
+### Day 11: January 20th, Friday
+
+**Today's Progress**:
+- I'll try the next FreeCodeCamp project cuz it comes right after the Tribute Page one: a personal portfolio webpage. It'll probably be very empty.
+- Reading [this](https://skillcrush.com/2015/03/12/impressive-tech-portfolio/) and [this](https://medium.com/@learntocodewithme/15-web-developer-portfolios-to-inspire-you-137fb1743cae#.kav329h6t) for inspiration on how to put one together.
+- Cool, there are such things as [css variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) that you can define on e.g. the [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) pseudo-class.
+
+**Thoughts**:
+- Not much done, but learned about 2 new things! Off to prepare for tomorrow.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
