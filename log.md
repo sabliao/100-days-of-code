@@ -194,3 +194,22 @@
 - Not much done, but learned about 2 new things! Off to prepare for tomorrow.
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 12: January 25th, Wednesday
+
+**Today's Progress**:
+- I want to get that parallax effect w/ a background image and style my site similar to example #6 [here](https://medium.com/@learntocodewithme/15-web-developer-portfolios-to-inspire-you-137fb1743cae#5677). [This](http://keithclark.co.uk/articles/pure-css-parallax-websites/) was a cool article on how you use pure css to get the parallax effect (on mobile too)!
+- I'm using this [article](https://css-tricks.com/perfect-full-page-background-image/) to show me how to have a background image fill the entire canvas. Mmm, I can't get my google photo image to show though. Oh, I forgot it's cuz my photo's served via https and codepen's using http and so won't show 'secured' content.
+- Hmm, I keep getting the following error even though I have jquery in my list of added javascript before bootstrap's js:
+ ```
+ Uncaught Error: Bootstrap's JavaScript requires jQuery
+     at VM142 bootstrap.min.js:6
+ ```
+- From this [thread](https://teamtreehouse.com/community/is-there-anyway-to-add-your-images-when-using-code-pen), I decided to sign up for cloudinary to host my picture. Cool service.
+- Having trouble getting the parallax effect to work w/ my background and having my foreground not block it. Realized I need to have my background image directly on the background layer of the parallax html structure and not on a child element inside.
+
+**Thoughts**:
+- Again, not much to show, but really cool to see that the parallax effect can be done so easily! I'll want to eventually figure out how I can get the picture to stay on the whole page even w/ scrolling (I get a lot of whitespace on the bottom).
+- I need to just lay stuff down next time and not worry about it not being quite right the first time. Need to get used to simply working through, like drafts, which I was never good at b/c the perfectionist inside has complaints. XP
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
