@@ -213,3 +213,16 @@
 - I need to just lay stuff down next time and not worry about it not being quite right the first time. Need to get used to simply working through, like drafts, which I was never good at b/c the perfectionist inside has complaints. XP
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 13: January 26th, Thursday
+
+**Today's Progress**:
+- Gonna look for free fonts I can add via a cdn. Getting the links through [http://fontcdn.org/](http://fontcdn.org/); I chose Cinzel for now. So easy!
+- I wanted to add an outline (learned later called 'stroke') to my links so that they're more easily readable. Saw this old [page](https://css-tricks.com/adding-stroke-to-web-text/) that showed how you can use webkit to do it (can set a default text color if not a webkit browser and use -webkit-text-fill-color to override the color style).
+- Need to get font awesome icons for social media links.
+
+**Thoughts**:
+- Codepen's html preview has been very finicky. I often need to see the full page preview to actually see how the page looks instead of simply relying on the html section in the developer view.
+- Seeing things actually come together helps w/ momentum and motivation.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
