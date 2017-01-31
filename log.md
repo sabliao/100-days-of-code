@@ -226,3 +226,13 @@
 - Seeing things actually come together helps w/ momentum and motivation.
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 14: January 30th, Monday
+
+**Today's Progress**:
+- Added social media icons and links. Learned about sizing for icons, but didn't figure out how to actually make the icons all the same height.
+
+**Thoughts**:
+- slow
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
