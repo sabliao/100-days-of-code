@@ -234,5 +234,17 @@
 
 **Thoughts**:
 - slow
+- are social media links helpful if most all my accounts are private?
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 14.5: January 31st, Tuesday
+
+**Today's Progress**:
+- I'm trying to figure out how to evenly space items horizontally and am finally learning/reading about [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- [Autoprefixer](https://css-tricks.com/autoprefixer/) sounds like a cool thing we could use for actual projects as it removes the need to remember vendor prefixes for css and seems not too hairy to integrate.
+
+**Thoughts**:
+- Even though I wanted to model my page after pierre.io, the fact that you can't access the navigation links (to the rest of the page) after scrolling down is annoying, so I'll probably add a header navbar (was also thinking of side navbar, but to make it simple and keep it mobile-friendly, will go w/ header).
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
