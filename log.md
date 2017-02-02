@@ -248,3 +248,13 @@
 - Even though I wanted to model my page after pierre.io, the fact that you can't access the navigation links (to the rest of the page) after scrolling down is annoying, so I'll probably add a header navbar (was also thinking of side navbar, but to make it simple and keep it mobile-friendly, will go w/ header).
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 15: February 1st, Wednesday
+
+**Today's Progress**:
+- Hmm, I can't do position: fixed on the header navbar cuz the parallax__layer already sets the layer to have position: absolute, so position: fixed doesn't actually stay in the same place relative to the browser window. Or at least that's my hypothesis. Even placing the header/nav block outside of and after the parallax blocks, it still looks like it's got default positioning...oh wait, I just realized I'm looking at the elements for my page's sections (e.g. Projects); no wonder...
+
+**Thoughts**:
+- Need to figure out how to get the linking to the sections of the same page working since my use of # is not working.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
