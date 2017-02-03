@@ -258,3 +258,13 @@
 - Need to figure out how to get the linking to the sections of the same page working since my use of # is not working.
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 16: February 2nd, Thursday
+
+**Today's Progress**:
+- Lol, just realized my linking wasn't working because the id for the linked-to element isn't supposed to have the # in front of it.
+
+**Thoughts**:
+- Unsuccessfully tried to get active links to work w/o javascript. Maybe I was reading things wrong.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
