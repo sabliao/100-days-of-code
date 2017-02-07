@@ -268,3 +268,18 @@
 - Unsuccessfully tried to get active links to work w/o javascript. Maybe I was reading things wrong.
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 17: February 6th, Monday
+
+**Today's Progress**:
+- I'm trying to get active link styling to work again. For some reason, just clicking on 'Home' link will give the link a text-decoration of underline even though through the inspector, text-decoration for a link should always be none. 0.o Well, I moved that style rule from the hover state to the anchor element (for the main nav), and now there's no underline.
+- Hmm, also, clicking 'Home' doesn't bring me back to the top of the page. Based on this old [article](http://www.promo.sharmweb.net/simplest-html-home-and-back-top-link-works-all-browsers), simply using href of '#' should do the trick, so I dunno why that doesn't work for me. Mmm, maybe it tries to go to the first element, but since my first element is the navbar, which is always showing, it doesn't move? That's my best hypothesis. I'll get around this by setting an id on the main element for home. Oh darn, that doesn't go up quite high enough (ends up w/ my name half-covered). Even moving the id up one element (to the parallax layer) didn't change things.
+- I can't get the scrolling to work using the example jQuery code [here](https://codepen.io/MyXoToD/post/look-ma-such-a-smooth-scroll) as a basis (and checking [this](http://stackoverflow.com/a/9696633) to remember how to target an element using an attribute match). Instead of scrolling $('html, body'), I decided to try to scroll on the main parallax layer element, but that didn't work either. Made sure to add a ```return false``` statement at the end of the click handler function as seen [here](http://stackoverflow.com/a/5580456), but that didn't work either (note to self: ```$('html, body')``` is used for cross-browser compatability, briefly mentioned [here](http://stackoverflow.com/a/26050575)). Maybe I'm not targeting the element to which the scrollbar belongs (going off this [answer](http://stackoverflow.com/a/26050549)), but I don't know what else to target...ohhh, I had to target the parent div element that contains both the background and main parallax layers. Whee!
+- To get the active link clicking working, needed a combination of references:
+    - [how to remove and add classes](http://stackoverflow.com/a/28443371)
+    - [how to target class on same element selector in scss](http://stackoverflow.com/a/11084798)
+
+**Thoughts**:
+- It's been a while since I've touched jQuery...
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
