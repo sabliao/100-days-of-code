@@ -283,3 +283,16 @@
 - It's been a while since I've touched jQuery...
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 18: February 7th, Tuesday
+
+**Today's Progress**:
+- Gonna add thumbnails to my 'projects' section. Oh, but first, why's all the text after the social media icons off to the left? 0.o Oh, it's actually centered, and it's the *top* part that's off to the right a bit due to a custom margin-left I had applied to it in an attempt to have the text not overlap w/ a dark object in the background image.
+- Ooh, just saw this cool site/service that gives you placeholders of any size called [placeholdit](https://placehold.it/).
+
+**Thoughts**:
+- I do eventually want to have each linked-to section work as a sort of sticky element so that scrolls snap in place, but for now, I'll just work on content.
+- I was thinking to upload whichever thumbnails I end up using to cloudinary and use their service of giving me a resized image...it should be faster than my codepen's css is what I'm thinking.
+- For skills section, maybe can have each 'skill' be represented by that framework/tool's icon.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
