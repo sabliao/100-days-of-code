@@ -199,7 +199,7 @@
 **Thoughts**:
 - Not much done, but learned about 2 new things! Off to prepare for tomorrow.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 12: January 25th, Wednesday
 
@@ -218,7 +218,7 @@
 - Again, not much to show, but really cool to see that the parallax effect can be done so easily! I'll want to eventually figure out how I can get the picture to stay on the whole page even w/ scrolling (I get a lot of whitespace on the bottom).
 - I need to just lay stuff down next time and not worry about it not being quite right the first time. Need to get used to simply working through, like drafts, which I was never good at b/c the perfectionist inside has complaints. XP
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 13: January 26th, Thursday
 
@@ -231,7 +231,7 @@
 - Codepen's html preview has been very finicky. I often need to see the full page preview to actually see how the page looks instead of simply relying on the html section in the developer view.
 - Seeing things actually come together helps w/ momentum and motivation.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 14: January 30th, Monday
 
@@ -242,7 +242,7 @@
 - slow
 - are social media links helpful if most all my accounts are private?
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 14.5: January 31st, Tuesday
 
@@ -253,7 +253,7 @@
 **Thoughts**:
 - Even though I wanted to model my page after pierre.io, the fact that you can't access the navigation links (to the rest of the page) after scrolling down is annoying, so I'll probably add a header navbar (was also thinking of side navbar, but to make it simple and keep it mobile-friendly, will go w/ header).
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 15: February 1st, Wednesday
 
@@ -263,7 +263,7 @@
 **Thoughts**:
 - Need to figure out how to get the linking to the sections of the same page working since my use of # is not working.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 16: February 2nd, Thursday
 
@@ -273,7 +273,7 @@
 **Thoughts**:
 - Unsuccessfully tried to get active links to work w/o javascript. Maybe I was reading things wrong.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 17: February 6th, Monday
 
@@ -288,7 +288,7 @@
 **Thoughts**:
 - It's been a while since I've touched jQuery...
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 18: February 7th, Tuesday
 
@@ -301,7 +301,7 @@
 - I was thinking to upload whichever thumbnails I end up using to cloudinary and use their service of giving me a resized image...it should be faster than my codepen's css is what I'm thinking.
 - For skills section, maybe can have each 'skill' be represented by that framework/tool's icon.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
 ### Day 19: February 8th, Wednesday
 
@@ -318,4 +318,4 @@
 - I should use [parallax sections](http://keithclark.co.uk/articles/pure-css-parallax-websites/#parallax-sections) to give the projects section a different background (otherwise, too hard to read descriptions on the main photo background).
 - Need to get my old projects up and running to use as fodder for the webpage.
 
-**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
