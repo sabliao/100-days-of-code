@@ -1,5 +1,10 @@
 # 100 Days Of Code - Log
 
+##Project Start Links
+- [Fix Pic Timestamp](#new-project-fix-pic-timestamp)
+- Can I Eat It? (Web): [first day](#new-project-can-i-eat-it-web)
+- [Tribute Page (FreeCodeCamp)](#new-project-tribute-page-freecodecamp)
+
 ##New Project: Fix Pic Timestamp
 ### Day 1: January 4th, Wednesday
 
@@ -294,5 +299,22 @@
 - I do eventually want to have each linked-to section work as a sort of sticky element so that scrolls snap in place, but for now, I'll just work on content.
 - I was thinking to upload whichever thumbnails I end up using to cloudinary and use their service of giving me a resized image...it should be faster than my codepen's css is what I'm thinking.
 - For skills section, maybe can have each 'skill' be represented by that framework/tool's icon.
+
+**Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 19: February 8th, Wednesday
+
+**Today's Progress**:
+- Instead of just having thumbnails of projects, I'll add a description beside each one to give more background. For ones that you can't really see from a public visit (e.g. Legacy or non-existent ones like Cytosport), maybe I can have a modal pop up to show a bit more about it w/ more screenshots. I'll leave that (modal popup) as a todo for next time b/c I'll need to spin up my vagrant instances or just start up my local webserver for these older projects to actually get screenshots of them and describe them (I don't even remember how we used to get them running). Might be nice to have a timeline of sorts to show when each project happened, but that'd be more like a sticky link for each year as scroll down through the projects. Mmm, I'll leave the sticky aspect of the year link for another time.
+- 3rd comment on this [answer](http://stackoverflow.com/a/8579673) helped me get started on figuring out how to at least have my year link scroll to the top of its div (even if I leave the sticky part for later).
+- Hmm, I'm trying to get all my nav links to scroll to the appropriate spot (so can just have one handler taking care of that for all), but the scrollTop values seem off (goes to high or too low) except for the value of 0 for home...oh, I think it's cuz I need to take into account where we currently are on the page in terms of scroll position; no wait, that's what offset()'s supposed to do. Turns out [position()](http://api.jquery.com/position/) is what I needed.
+- I have a mystery underline for my year link...can't figure out what's triggering it (it's not any of the element states I can toggle). It happens after I've clicked on the link and hover wherever the text *isn't* at in its area (i.e. in the blank space underneath or to the side). Ahh, this [answer](http://stackoverflow.com/a/27989757) made me aware of yet another element state: "a:link", for an unvisited link (which doesn't make sense in this case as to why the underline would come after I've clicked the link), and that was the one I had to target to get rid of the underline finally.
+- Wanted to add stroke to my year text so easier to see; this [post](https://css-tricks.com/adding-stroke-to-web-text/) helped.
+- Since my logs are so long, decided to add links at the top to navigate to the start of each project. [This](http://stackoverflow.com/a/16426829) helped me figure out how to link to headers.
+
+**Thoughts**:
+- Not really doing as much web dev practice as content creation for this webpage. XP
+- I should use [parallax sections](http://keithclark.co.uk/articles/pure-css-parallax-websites/#parallax-sections) to give the projects section a different background (otherwise, too hard to read descriptions on the main photo background).
+- Need to get my old projects up and running to use as fodder for the webpage.
 
 **Link(s) to work**: [Personal Portfolio Webpage(http://codepen.io/sabliao/pen/mRmbMy)
