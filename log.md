@@ -4,6 +4,7 @@
 - [Fix Pic Timestamp](#new-project-fix-pic-timestamp)
 - Can I Eat It? (Web): [first day](#new-project-can-i-eat-it-web)
 - [Tribute Page (FreeCodeCamp)](#new-project-tribute-page-freecodecamp)
+- [Personal Portfolio Webpage (FreeCodeCamp)](#personal-portfolio-webpage-freecodecamp)
 
 ##New Project: Fix Pic Timestamp
 ### Day 1: January 4th, Wednesday
