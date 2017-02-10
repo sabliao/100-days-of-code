@@ -319,3 +319,13 @@
 - Need to get my old projects up and running to use as fodder for the webpage.
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 20: February 9th, Thursday
+
+**Today's Progress**:
+- Trying out parallax groups, but it's a lot harder to get it working for me than I expected. I can't figure out why my content for different parallax groups end up on top of each other. Tried to inspect the [demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/) but haven't figured out what's wrong.
+
+**Thoughts**:
+- Downside of using codepen for developing is there's no versioning, so if I wanted to go back to undo a bad series of changes, it'd be impossible if the chnages weren't done in the same session. Oh, but there's a feature where we can export codepens to a github gist, which will essentially act as version control, yay! [[ref](https://blog.codepen.io/2016/09/19/using-gists-see-versions-pens-dif-pen-changes/)]. Cool, [here](https://gist.github.com/anonymous/e5eea89b8a62c2f660f4ead2f91928b8)'s my gist link.
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
