@@ -327,6 +327,20 @@
 - Hmm, that's weird, I saw that the pen was exported as a gist for an anonymous account when I did the first time, so I assumed my github account wasn't linked, but now that I'm checking it again, it's indeed linked, and when I exported the 2nd time, it exported to a different gist instead of the same one (probably cuz it's exporting as an anonymous user). Had to unlink my github account and relink it again. [Here](https://gist.github.com/sabliao/3b3be18afbae4da2015127f6cac5e877)'s the permananet gist link.
 
 **Thoughts**:
-- Downside of using codepen for developing is there's no versioning, so if I wanted to go back to undo a bad series of changes, it'd be impossible if the chnages weren't done in the same session. Oh, but there's a feature where we can export codepens to a github gist, which will essentially act as version control, yay! [[ref](https://blog.codepen.io/2016/09/19/using-gists-see-versions-pens-dif-pen-changes/)]. Cool, ~~[here](https://gist.github.com/anonymous/e5eea89b8a62c2f660f4ead2f91928b8)'s my gist link.~~(see link under "Today's Progress")
+- Downside of using codepen for developing is there's no versioning, so if I wanted to go back to undo a bad series of changes, it'd be impossible if the changes weren't done in the same session. Oh, but there's a feature where we can export codepens to a github gist, which will essentially act as version control, yay! [[ref](https://blog.codepen.io/2016/09/19/using-gists-see-versions-pens-dif-pen-changes/)]. Cool, ~~[here](https://gist.github.com/anonymous/e5eea89b8a62c2f660f4ead2f91928b8)'s my gist link.~~(see link under "Today's Progress")
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 21: February 10th, Friday
+
+**Today's Progress**:
+- Ah, issue w/ overlap from yesterday was that I was missing closing div tags on the parallax groups.
+- Ooh, can just crop my background image (I don't want it as tall) using cloudinary; just need to access a specific url like http://res.cloudinary.com/sgl/image/upload/c_crop,h_710,w_2560/v1485406016/IMG_20161024_211640_otpuk0.jpg
+- Was playing w/ layer placement and scale and then discovered I couldn't click on my links anymore. It *looks* like my background layer for my project section is 'on top' of that area of my first parallax group (w/ the mini bio + picture & social media links) based on what my right-click inspect returns (i.e. when I right-click > inspect on my profile pic, I get directed to the background layer of the project group), but the z-index for backgrounds are 3 while main layers are 4, which should cover any background layer. :/ Wish the css styling suggested by the blogger from whom I learned about parallax layers worked on my site (all I see are long streaks of color) or that I'd be able to figure out the magic numbers that'd make the 3-d effect work. Ah, it was easier to not do the transform thing and simply apply the border outlines of each parallax layer, so that helped me see when the project background layer was still covering my base layer of my intro section.
+- Ah, reading [this](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/) is helping me understand how it's possible for a higher z-index to be below another one (esp. helpful was the added 'Update' note in the [stacking contexts](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/#stacking-contexts) section). I think in my case, it has to do w/ transforms being applied on the background layers (so that they can appear farther away and scroll at a different speed -> parallax effect). Wonder if there's a way around this...
+
+
+**Thoughts**:
+- Oof, tricky css gotchas.
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
