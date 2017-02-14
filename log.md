@@ -344,3 +344,15 @@
 - Oof, tricky css gotchas.
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 22: February 13th, Monday
+
+**Today's Progress**:
+- I'm rereading the stacking contexts article, but I don't see how the the parallax groups, which are the parent elements contaiing a background parallax layer and a base parallax layer each, are forming new stacking contexts, so I don't know why the z-index...nevermind, parallax groups are forming a new stacking context due to the ```transform-style: preserve-3d;``` styling. I just tested in a codepen [here](http://codepen.io/sabliao/pen/GrzWLq). See how the pink goes over the dark green even though the green has a higher z-index? If comment out the preserve-3d transform-style styling on .group elements, the stacking would be solely based on z-index then default to order of appearance when z-index's are the same.
+- Checking the parallax demo. Ah, looks like he got around the issue by setting z-indexes on the groups themselves. Lol, but now parts of my second group are hidden behind my first group's background cuz there's some overlap...hmm, and I see why my 'Projects' group is so far up into my main/intro one, and it's because the parallax group has a height of 100% of the viewport, so the next parallax group gears up to be right after that. I realize I don't need it to be 100vh (the blog w/ the demo said he just wanted every group to fill the viewport but that arbitrary values can be set for that), so I'll fix that now! I figured I'll just take the height requirements out all together b/c who knows how long each group will be on each device? But it looks like if I remove the height setting for .parallax-group, the whole page just turns white (removing from .parallax [parent element] messed up the look too, but at least there was sthg you could still see). T__T I fiddled w/ the height and ended up removing the z-index's I had added for the parallax groups (in an attempt to put the first group above the second group so that picture and icons wouldn't be blocked), but now we're back at the same problem of having the picture and icons unclickable until they slide up from under the 'background' layer of the second group.
+
+
+**Thoughts**:
+- Gonna get rid of parallax effect and stick w/ simple non-moving backgrounds b/c this is not worth the effort.
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
