@@ -339,7 +339,6 @@
 - Was playing w/ layer placement and scale and then discovered I couldn't click on my links anymore. It *looks* like my background layer for my project section is 'on top' of that area of my first parallax group (w/ the mini bio + picture & social media links) based on what my right-click inspect returns (i.e. when I right-click > inspect on my profile pic, I get directed to the background layer of the project group), but the z-index for backgrounds are 3 while main layers are 4, which should cover any background layer. :/ Wish the css styling suggested by the blogger from whom I learned about parallax layers worked on my site (all I see are long streaks of color) or that I'd be able to figure out the magic numbers that'd make the 3-d effect work. Ah, it was easier to not do the transform thing and simply apply the border outlines of each parallax layer, so that helped me see when the project background layer was still covering my base layer of my intro section.
 - Ah, reading [this](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/) is helping me understand how it's possible for a higher z-index to be below another one (esp. helpful was the added 'Update' note in the [stacking contexts](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/#stacking-contexts) section). I think in my case, it has to do w/ transforms being applied on the background layers (so that they can appear farther away and scroll at a different speed -> parallax effect). Wonder if there's a way around this...
 
-
 **Thoughts**:
 - Oof, tricky css gotchas.
 
@@ -351,8 +350,19 @@
 - I'm rereading the stacking contexts article, but I don't see how the the parallax groups, which are the parent elements contaiing a background parallax layer and a base parallax layer each, are forming new stacking contexts, so I don't know why the z-index...nevermind, parallax groups are forming a new stacking context due to the ```transform-style: preserve-3d;``` styling. I just tested in a codepen [here](http://codepen.io/sabliao/pen/GrzWLq). See how the pink goes over the dark green even though the green has a higher z-index? If comment out the preserve-3d transform-style styling on .group elements, the stacking would be solely based on z-index then default to order of appearance when z-index's are the same.
 - Checking the parallax demo. Ah, looks like he got around the issue by setting z-indexes on the groups themselves. Lol, but now parts of my second group are hidden behind my first group's background cuz there's some overlap...hmm, and I see why my 'Projects' group is so far up into my main/intro one, and it's because the parallax group has a height of 100% of the viewport, so the next parallax group gears up to be right after that. I realize I don't need it to be 100vh (the blog w/ the demo said he just wanted every group to fill the viewport but that arbitrary values can be set for that), so I'll fix that now! I figured I'll just take the height requirements out all together b/c who knows how long each group will be on each device? But it looks like if I remove the height setting for .parallax-group, the whole page just turns white (removing from .parallax [parent element] messed up the look too, but at least there was sthg you could still see). T__T I fiddled w/ the height and ended up removing the z-index's I had added for the parallax groups (in an attempt to put the first group above the second group so that picture and icons wouldn't be blocked), but now we're back at the same problem of having the picture and icons unclickable until they slide up from under the 'background' layer of the second group.
 
-
 **Thoughts**:
 - Gonna get rid of parallax effect and stick w/ simple non-moving backgrounds b/c this is not worth the effort.
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 23: February 14th, Tuesday; February 15th, Wednesday
+
+**Today's Progress**:
+- Ooh, actually, if I just remove the transform styling, the site looks okay if I just leave everything else the way it is. Of course, need a few adjustments for placement, so gonna work on that, esp. now that the lamppost in the background picture is blocking part of my main text.
+- Hmm, strange: when I first tested some changes to the background's css rules/positioning, I thought I was able to get it perfect w/ breaking up the background css rule into a background-image, background-position (gave it value ```calc(50% - 75px) 50%``` w/ help from [here](http://stackoverflow.com/a/25955384)), and background-repeat (w/ value ```no-repeat```), but when I transferred that over to the actual code and refreshed the page, it looked messed up and said the background-position code was invalid. Oh, I guess the spaces before and after the minus sign are really important in the calc() function. Also just realized that the background size changes if you open the inspector tool and if you keep background-size to the value 'cover'.
+- Can't figure out why I can't get rid of the white space above my name title even after changing margin to padding and changing my background for my base layer to transparent. Ah, it's actually cuz I misunderstood the positioning style and a higher percentage for the second number makes the photo go down, not up. Got it working, at least on a desktop...
+
+**Thoughts**:
+- This css stuff takes me longer to figure out than code sometimes. XP
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
