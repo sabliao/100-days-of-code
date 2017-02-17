@@ -366,3 +366,15 @@
 - This css stuff takes me longer to figure out than code sometimes. XP
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 24: February 16th, Thursday
+
+**Today's Progress**:
+- Oh darn, just realized I don't have my old code on this partition (Ubuntu 14.04) and only have it in the 12.04 partition, which was made inaccessible by my n00bness while trying to install 14.04. T__T. One last place the old code could be is on my mac, which came much later. Will have to try another time.
+- Background options for projects section (and other sections too): darkgray, gold, lightskyblue, maroon, orange, powderblue, silver. I think I'll go w/ orange for projects.
+- Realized that I didn't actually remove all the parallax styling, so I'm commenting those parts out to see if it'll remain about the same. I can't understand why there's an overlap of the elements when the window's squished though but okay when the window's full-sized. I've commented out all height stylings...
+
+**Thoughts**:
+- Again, css is beasting me.
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
