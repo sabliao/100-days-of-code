@@ -378,3 +378,14 @@
 - Again, css is beasting me.
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 25: February 17th, Friday
+
+**Today's Progress**:
+- Oh, nevermind. Apparently a complete refresh of the full page shows that the content overlaps regardless. Ahhh, it's the position: absolute rule I missed seeing!
+- Adding skills.
+
+**Thoughts**:
+- Focussss
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
