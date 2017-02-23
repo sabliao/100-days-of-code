@@ -400,10 +400,28 @@
     - (the spine health products website): lead developer decided he wanted me to try a fledgling framework called Sylius that had the cart flow built into it. It was my first time dealing w/ multiple payment gateways(?) and a first w/ shipping (used yet another shiny, new 'toy' for handling shipping called RocketShipIt) and learning what a nightmare shipping can be when you have items of various sizes and are trying to give an estimate for how large the overall containing box would be. Due to the young nature of Sylius, there were still a high number of kinks that were yet to be resolved; I learned to not blame myself for every instance of non-working software; it was also the first time I became rather active on StackOverflow and on a GitHub repo. Beyond that, learning how to mold the project's needs to the narrower, highly specific structure of Sylius was quite the challenge.
     - cytosport (2013-2014): first(?) dealing w/ ecommerce and for a well-known brand (in the sports nutrition industry). first time dealing with import of images and storage of them as well as import of files from client via browser and ftp for faster updating of item and order information. first huge disaster with payments and verification and learning how transactions and authorizations with credit cards worked. ... Unfortunately, eventually bought out by Hormel, and a budget for this new wholesale-to-customer ecommerce website no longer existed, so we began the process of retiring the website.
     - LakinTire: ...
-    - GDB: first use of internally created bundles (we were trying to go in a direction where we build many small bundles/components that could be used for multiple projects). Similar issue w/ having used 
+    - GDB: first use of internally created bundles (we were trying to go in a direction where we build many small bundles/components that could be used for multiple projects). Similar issue w/ having used
     - Legacy: first time being tasked to come up with wireframes for the app (but was also thankfully given feedback by our interim manager at the time). First time using the angularjs + python-eve stack for an application (though the first draft of the website was still started by our lead developer first). Good ramp-up challenge since it had been a while since I had to familiarize myself with a new framework. one of biggest challenges was learning how the 3-part pdf generation process using aws lambda functions worked and how to understand and resolve the problems that cropped up when reports were generated.
 
 **Thoughts**:
 - I'll need to do a lot of reading of old google docs to remember exactly what I had done and when for each of the old projects. And to see how I can start up old projects to potentially get a screenshot of an old site (otherwise, can fallback to using logo's)
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 27: February 22nd, Wednesday
+
+**Today's Progress**:
+- Gonna practice python on http://exercism.io/.
+- I'm trying to follow the instructions [here](http://exercism.io/cli/mac) for installing exercism, but I'm getting an error when I try to run the brew commands:
+ ```
+ /usr/local/Library/brew.sh: line 32: /usr/local/Library/ENV/scm/git: No such file or directory
+ Error: update-report should not be called directly!
+ ```
+- Found this [fix](https://github.com/Homebrew/brew/issues/557#issuecomment-233710397), yay!
+- Finished submitting first exercise
+
+**Thoughts**:
+- Wow...the 'previous' day was 4 days ago. Just goes to show, there's always something in life that'll come up, which is why scheduling is helpful in getting *anything* done.
+- Took a while to figure out that the test suite didn't want me to run my own function to print out the hello world message and that printing wasn't what was desired but rather the return of the desired string (instructions could've been clearer), but yay for first pass. Hopefully subsequent exercise submissions will go faster.
+
+**Link(s) to work**: [Hello World](http://exercism.io/submissions/814f6dac195d4c2da921afe3e7863c23)
