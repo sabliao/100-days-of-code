@@ -425,3 +425,26 @@
 - Took a while to figure out that the test suite didn't want me to run my own function to print out the hello world message and that printing wasn't what was desired but rather the return of the desired string (instructions could've been clearer), but yay for first pass. Hopefully subsequent exercise submissions will go faster.
 
 **Link(s) to work**: [Hello World](http://exercism.io/submissions/814f6dac195d4c2da921afe3e7863c23)
+
+### Day 28: February 23rd, Thursday
+
+**Today's Progress**:
+- Will continue to practice python on http://exercism.io/.
+- Submitted exercise 2
+
+**Thoughts**:
+- These are actually 'fun', but maybe it's b/c I'm not struggling and being stuck w/ some error I can't get to the bottom of.
+
+**Link(s) to work**: [Leap](http://exercism.io/submissions/cea2a672c84e4bd285196461add6c6ef)
+
+### Day 29: February 25th, Saturday; February 26th, Sunday
+
+**Today's Progress**:
+- Gonna read up on my old projects and try to get them started so that I can get screenshots.
+- Darn, can't get my old irnrealty project running. Guess I'll just use the screenshot of the current site.
+- Looking at my site again, the background is too small for the space it should be taking up (white space at top and bottom), the cause of which is eluding me. I don't remember changing the size; I just remember it being the right size after removing all the parallax styles. Ohhh, actually, I see that I was using a cropped version of my background. I think I just need to increase the height specified via the cloudinary url. 
+
+**Thoughts**:
+- Life happens.
+
+**Link(s) to work**: [Leap](http://exercism.io/submissions/cea2a672c84e4bd285196461add6c6ef)
