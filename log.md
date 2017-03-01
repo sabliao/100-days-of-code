@@ -5,6 +5,7 @@
 - Can I Eat It? (Web): [first day](#new-project-can-i-eat-it-web)
 - [Tribute Page (FreeCodeCamp)](#new-project-tribute-page-freecodecamp)
 - [Personal Portfolio Webpage (FreeCodeCamp)](#new-project-personal-portfolio-webpage-freecodecamp)
+- [exercism.io Practice](#new-project-exercismio-practice)
 
 ##New Project: Fix Pic Timestamp
 ### Day 1: January 4th, Wednesday
@@ -408,6 +409,7 @@
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
 
+##New Project: exercism.io Practice
 ### Day 27: February 22nd, Wednesday
 
 **Today's Progress**:
@@ -424,7 +426,7 @@
 - Wow...the 'previous' day was 4 days ago. Just goes to show, there's always something in life that'll come up, which is why scheduling is helpful in getting *anything* done.
 - Took a while to figure out that the test suite didn't want me to run my own function to print out the hello world message and that printing wasn't what was desired but rather the return of the desired string (instructions could've been clearer), but yay for first pass. Hopefully subsequent exercise submissions will go faster.
 
-**Link(s) to work**: [Hello World](http://exercism.io/submissions/814f6dac195d4c2da921afe3e7863c23)
+**Link(s) to work**: [Hello World (Python)](http://exercism.io/submissions/814f6dac195d4c2da921afe3e7863c23)
 
 ### Day 28: February 23rd, Thursday
 
@@ -435,7 +437,7 @@
 **Thoughts**:
 - These are actually 'fun', but maybe it's b/c I'm not struggling and being stuck w/ some error I can't get to the bottom of.
 
-**Link(s) to work**: [Leap](http://exercism.io/submissions/cea2a672c84e4bd285196461add6c6ef)
+**Link(s) to work**: [Leap (Python)](http://exercism.io/submissions/cea2a672c84e4bd285196461add6c6ef)
 
 ### Day 29: February 25th, Saturday; February 26th, Sunday
 
@@ -447,4 +449,17 @@
 **Thoughts**:
 - Life happens.
 
-**Link(s) to work**: [Leap](http://exercism.io/submissions/cea2a672c84e4bd285196461add6c6ef)
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 30: February 28th, Tuesday
+
+**Today's Progress**:
+- I'll try to do a mix of a lil coding and working on my page b/c I want to progress on both fronts. Hopefully I can get exercism installed on this other computer I'm using now as well as get some more work done at least on the written content side for the page.
+- Didn't get to the personal page today.
+
+**Thoughts**:
+- Actually, after reading over a message from an acquaintance from back in August, I feel like I should focus on strengthening my javascript instead of broadening out to get better at Python b/c I still don't have a skill that's at a 'hireable' level just yet. Thus, I'll start the javascript track on exercism.
+
+**Link(s) to work**:
+- [Hello World (JavaScript)](http://exercism.io/submissions/232a5ac55eb7468e973ebe42c08397af)
+- [Leap (JavaScript)](http://exercism.io/submissions/28af5f9f092244d3980047b9f62f36a3)
