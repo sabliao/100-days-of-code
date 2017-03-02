@@ -463,3 +463,13 @@
 **Link(s) to work**:
 - [Hello World (JavaScript)](http://exercism.io/submissions/232a5ac55eb7468e973ebe42c08397af)
 - [Leap (JavaScript)](http://exercism.io/submissions/28af5f9f092244d3980047b9f62f36a3)
+
+### Day 31: March 1st, Wednesday
+
+**Today's Progress**:
+- Completed 3rd javascript exercise.
+
+**Thoughts**:
+- March 1st coding was only half an hour, but thought it'd be better to do something than nothing, so did one more exercism exercise. Completed it faster than I thought it would. Having 'deadline' (in this case, to go to bed) helps things get done faster. :P
+
+**Link(s) to work**: [Hamming (JavaScript)](http://exercism.io/submissions/cf324272b80d4c6fb22ae3754b727d4b)
