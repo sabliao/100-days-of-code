@@ -444,7 +444,7 @@
 **Today's Progress**:
 - Gonna read up on my old projects and try to get them started so that I can get screenshots.
 - Darn, can't get my old irnrealty project running. Guess I'll just use the screenshot of the current site.
-- Looking at my site again, the background is too small for the space it should be taking up (white space at top and bottom), the cause of which is eluding me. I don't remember changing the size; I just remember it being the right size after removing all the parallax styles. Ohhh, actually, I see that I was using a cropped version of my background. I think I just need to increase the height specified via the cloudinary url. 
+- Looking at my site again, the background is too small for the space it should be taking up (white space at top and bottom), the cause of which is eluding me. I don't remember changing the size; I just remember it being the right size after removing all the parallax styles. Ohhh, actually, I see that I was using a cropped version of my background. I think I just need to increase the height specified via the cloudinary url.
 
 **Thoughts**:
 - Life happens.
@@ -473,3 +473,17 @@
 - March 1st coding was only half an hour, but thought it'd be better to do something than nothing, so did one more exercism exercise. Completed it faster than I thought it would. Having 'deadline' (in this case, to go to bed) helps things get done faster. :P
 
 **Link(s) to work**: [Hamming (JavaScript)](http://exercism.io/submissions/cf324272b80d4c6fb22ae3754b727d4b)
+
+### Day 32: March 2nd, Thursday
+
+**Today's Progress**:
+- Completed 4th javascript exercise. This guy's [iteration](http://exercism.io/submissions/3f11535be2724629bca84382f38dac04) looks better/cleaner; he uses Array.prototype.foreach!
+- I'm working some on the content of my personal portfolio page. I see that the amount of text can look cumbersome (I should also look into getting another font that's not all capital letters), so I want to add a bottom border to just the project thumbnail and the description columns for each row but not under the year column. However, when I try to group the image and description in a parent div, that messes up the grid layout. Only solution I can think of now (and even this is found from a stackoverflow question) is to add another row after every project row to specify I want a div that has the offset and combined width of the thumbnail and description columns and have a border styled for that row. There should be a better way to do this but can't think of one right now.
+
+**Thoughts**:
+- I'm glad I'm doing these javascript exercises b/c I'm realizing the need to write out (and dig through old journals to find the missing details) is what's making me put off returning to 'finishing' that page. XP
+- Maybe I can put the descriptions in modal windows and then next to each thumbnail, have a link to the project and a button to launch the modal to see more info. This way the layout will look less clunky.
+
+**Link(s) to work**:
+- [RNA Transcription (JavaScript)](http://exercism.io/submissions/f06fe3f407d34a9694fc33440ed4a68e)
+- [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
