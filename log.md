@@ -487,3 +487,14 @@
 **Link(s) to work**:
 - [RNA Transcription (JavaScript)](http://exercism.io/submissions/f06fe3f407d34a9694fc33440ed4a68e)
 - [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 33: March 7th, Tuesday
+
+**Today's Progress**:
+- Completed 5th javascript exercise.
+
+**Thoughts**:
+- Eating out a lot...
+- I just looked at the implementation of the guy below me [here](http://exercism.io/submissions/28a6c05bde8049d38f6d2792dc91a003), and it's so good... faster implementation (e.g. don't need to go through and search all 26 letters if just go through and remove a letter once you see it), cleaner code (e.g. use of String.prototype.split('') on string of alphabet letters to create the array), good variable naming (e.g. 'phrase' instead of 'string' like I used, lol), and use of regular expression to remove ... unnecessary characters? Not exactly sure what /[\"\s!?,\t\n\t]/g is supposed to represent.
+
+**Link(s) to work**: [Pangram (JavaScript)](http://exercism.io/submissions/15d689121c154f15adaf038633c48d72)
