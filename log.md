@@ -491,10 +491,23 @@
 ### Day 33: March 7th, Tuesday
 
 **Today's Progress**:
-- Completed 5th javascript exercise.
+- Completed 5th javascript exercise (Pangram).
 
 **Thoughts**:
 - Eating out a lot...
 - I just looked at the implementation of the guy below me [here](http://exercism.io/submissions/28a6c05bde8049d38f6d2792dc91a003), and it's so good... faster implementation (e.g. don't need to go through and search all 26 letters if just go through and remove a letter once you see it), cleaner code (e.g. use of String.prototype.split('') on string of alphabet letters to create the array), good variable naming (e.g. 'phrase' instead of 'string' like I used, lol), and use of regular expression to remove ... unnecessary characters? Not exactly sure what /[\"\s!?,\t\n\t]/g is supposed to represent.
 
 **Link(s) to work**: [Pangram (JavaScript)](http://exercism.io/submissions/15d689121c154f15adaf038633c48d72)
+
+### Day 34: March 29th, Wednesday
+
+**Today's Progress**:
+- Read this [answer](http://stackoverflow.com/a/10940138) and saw that using a regex object's test() function is faster than String.prototype.match(regexpObj) since the latter gives you the actual matches while former just lets you know if expression exists.
+- Completed 6th javascript exercise (Bob).
+- I only looked at the person who submitted right before me [here](http://exercism.io/submissions/178e204dcc684589bea2f9f4df608d5f), and I was super impressed by how organized she wrote her code! And in such a different and still clear way so that no comments were needed to explain anything; the code speaks for itself. There's some unnecessary code (checking for a number question vs just a number) and some of the checks are way too specific to the test cases, but I still like how she approached the problem in general.
+- Gonna read a bit through http://eloquentjavascript.net/
+
+**Thoughts**:
+- Taking umlauts into consideration (hex code) wasn't as intimidating as I first thought.
+
+**Link(s) to work**: [Bob (JavaScript)](http://exercism.io/submissions/b9c9d7c48a784022b002b22a4f70aafc)
