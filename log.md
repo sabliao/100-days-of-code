@@ -522,3 +522,14 @@
 - Goodness, the amount of text makes the site feel so unwieldy. Well, at least I'll commit to putting the text down. Maybe it won't take too long to change it so each thumbnail has a link next to it that opens a modal that'll have the scrolling text...
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 36: June 7th, Wednesday
+
+**Today's Progress**:
+- After dumping of the rest of the drafts for explanations I already had from an earlier log, I _actually_ just submitted my portfolio page as-is this time. Maybe it helps that I'm so far removed from work on it that my perfectionist tendencies are out the window on this one.
+
+**Thoughts**:
+- Lol, I clearly did not "suck it up" like I said I would last time.
+- I felt bad/a lil ashamed at having told a friend I still hadn't restarted my self-learning. I had sent her a text about that today and even mentioned my idea of a way forward (just submit my personal portfolio webpage as is cuz I know it's been the big blocker to my continuing forward due to my insistence that it be 'complete' before submitting, and then just restarting w/ a bite-sized chunk), so I felt like today was the day I should do that. It's been a while.
+
+**Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
