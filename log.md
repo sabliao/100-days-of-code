@@ -533,3 +533,11 @@
 - I felt bad/a lil ashamed at having told a friend I still hadn't restarted my self-learning. I had sent her a text about that today and even mentioned my idea of a way forward (just submit my personal portfolio webpage as is cuz I know it's been the big blocker to my continuing forward due to my insistence that it be 'complete' before submitting, and then just restarting w/ a bite-sized chunk), so I felt like today was the day I should do that. It's been a while.
 
 **Link(s) to work**: [Personal Portfolio Webpage](http://codepen.io/sabliao/pen/mRmbMy)
+
+### Day 37: June 13th, Tuesday
+
+**Today's Progress**:
+- Gonna just continue w/ freecodecamp.com progress.
+
+**Thoughts**:
+- Why did they give such a relatively 'complex' project of setting up one's portfolio page (including a user story where one should be able to click on a section tab and have the page scroll down to the appropriate section) *before* all this really basic javascript stuff?
