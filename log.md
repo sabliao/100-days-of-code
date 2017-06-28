@@ -541,3 +541,11 @@
 
 **Thoughts**:
 - Why did they give such a relatively 'complex' project of setting up one's portfolio page (including a user story where one should be able to click on a section tab and have the page scroll down to the appropriate section) *before* all this really basic javascript stuff?
+
+### Day 38: (some other days), June 27th, Tuesday
+
+**Today's Progress**:
+- Continuing w/ freecodecamp.com
+
+**Thoughts**:
+- Super basic code is killing me too.
