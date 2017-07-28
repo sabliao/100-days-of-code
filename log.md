@@ -549,3 +549,11 @@
 
 **Thoughts**:
 - Super basic code is killing me too.
+
+### Day 39: July 27th, Thursday
+
+**Today's Progress**:
+- Tried out a codewars exercise
+
+**Thoughts**:
+- So hard to concentrate after not having had to in this way for a while. Ended up doing other things like cutting my nails and learning a lil about the best woman fencer in the country and world, who's currently at Notre Dame.
