@@ -557,3 +557,11 @@
 
 **Thoughts**:
 - So hard to concentrate after not having had to in this way for a while. Ended up doing other things like cutting my nails and learning a lil about the best woman fencer in the country and world, who's currently at Notre Dame.
+
+### Day 40-41: August 2nd-3rd, Wednesday/Thursday
+
+**Today's Progress**:
+- Finally bought 3 udemy courses yesterday to give me more structure, challenge, and motivation to get off my butt. Doing ~1 hr of Modern React w/ Redux and ~1 hr of Learning Node.js
+
+**Thoughts**:
+- This way of going about spending time w/ code and learning is definitely the lower-threshold method I needed to help me get into a routine.
