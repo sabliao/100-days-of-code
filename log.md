@@ -565,3 +565,11 @@
 
 **Thoughts**:
 - This way of going about spending time w/ code and learning is definitely the lower-threshold method I needed to help me get into a routine.
+
+### Day 42: August 6th, Sunday
+
+**Today's Progress**:
+- ~1 hr of Modern React w/ Redux and just under half an hr of Learn and Understand Node.js (got sleepy)
+
+**Thoughts**:
+- N/A
