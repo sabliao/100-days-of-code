@@ -573,3 +573,19 @@
 
 **Thoughts**:
 - N/A
+
+### Day 43: August 15th, Tuesday
+
+**Today's Progress**:
+- ~1 hr of Modern React w/ Redux and an hr of Learn and Understand Node.js
+
+**Thoughts**:
+- N/A
+
+### Day 44: August 17th, Thursday
+
+**Today's Progress**:
+- ~1 hr of Modern React w/ Redux and an hr of Learn and Understand Node.js
+
+**Thoughts**:
+- N/A
