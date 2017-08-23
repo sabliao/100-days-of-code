@@ -589,3 +589,19 @@
 
 **Thoughts**:
 - N/A
+
+### Day 45: August 19th, Saturday
+
+**Today's Progress**:
+- Watched s'more of the Udemy videos. 
+
+**Thoughts**:
+- N/A
+
+### Day 46: August 22nd, Tuesday
+
+**Today's Progress**:
+- Watched s'more of the Udemy videos. 
+
+**Thoughts**:
+- N/A
