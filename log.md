@@ -574,7 +574,7 @@
 **Thoughts**:
 - N/A
 
-### Day 43: August 15th, Tuesday
+### Day 43-44: August 15th, Tuesday & August 17th, Thursday
 
 **Today's Progress**:
 - ~1 hr of Modern React w/ Redux and an hr of Learn and Understand Node.js
@@ -582,23 +582,7 @@
 **Thoughts**:
 - N/A
 
-### Day 44: August 17th, Thursday
-
-**Today's Progress**:
-- ~1 hr of Modern React w/ Redux and an hr of Learn and Understand Node.js
-
-**Thoughts**:
-- N/A
-
-### Day 45: August 19th, Saturday
-
-**Today's Progress**:
-- Watched s'more of the Udemy videos. 
-
-**Thoughts**:
-- N/A
-
-### Day 46: August 22nd, Tuesday
+### Day 45-46: August 19th, Saturday & August 22nd, Tuesday
 
 **Today's Progress**:
 - Watched s'more of the Udemy videos. 
