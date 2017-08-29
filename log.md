@@ -582,7 +582,7 @@
 **Thoughts**:
 - N/A
 
-### Day 45-46: August 19th, Saturday & August 22nd, Tuesday
+### Day 45-49: August 19th, August 22nd-24th, August 28th
 
 **Today's Progress**:
 - Watched s'more of the Udemy videos. 
