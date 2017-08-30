@@ -582,10 +582,10 @@
 **Thoughts**:
 - N/A
 
-### Day 45-49: August 19th, August 22nd-24th, August 28th
+### Day 45-50: August 19th, August 22nd-24th, August 28th-29th
 
 **Today's Progress**:
-- Watched s'more of the Udemy videos. 
+- Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
 
 **Thoughts**:
 - N/A
