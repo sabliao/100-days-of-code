@@ -582,10 +582,35 @@
 **Thoughts**:
 - N/A
 
-### Day 45-50: August 19th, August 22nd-24th, August 28th-29th
+### Day 45-51: August 19th, August 22nd-24th, August 28th-29th, August 31st
 
 **Today's Progress**:
 - Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
 
 **Thoughts**:
+- N/A
+
+### Day 52: September 2nd, Saturday
+
+**Today's Progress**:
+- Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
+
+**Thoughts**:
+- N/A
+
+### Day 53: September 4th, Monday
+
+**Today's Progress**:
+- Trying out React-Native for a bit.
+
+**Thoughts**:
+- N/A
+
+### Day 54: September 11th, Monday
+
+**Today's Progress**:
+- Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
+- Read a lil about API keys and security issues while going through the Modern React course.
+
+**Thought**:
 - N/A
