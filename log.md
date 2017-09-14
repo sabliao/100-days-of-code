@@ -615,7 +615,7 @@
 **Thought**:
 - N/A
 
-### Day 55: September 12th, Tuesday
+### Day 55-56: September 12th-13th
 
 **Today's Progress**:
 - Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
