@@ -622,3 +622,11 @@
 
 **Thought**:
 - N/A
+
+### Day 57: September 18th
+
+**Today's Progress**:
+- Watched s'more of the Modern React w/ Redux and Learn and Understand Node.js videos.
+
+**Thought**:
+- N/A
