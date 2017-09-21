@@ -630,3 +630,12 @@
 
 **Thought**:
 - N/A
+
+### Day 58: September 20th
+
+**Today's Progress**:
+- Went through ~1hr of Modern React w/ Redux videos.
+- Went through ~10min of Learn and Understand Node.js videos.
+
+**Thought**:
+- I'm gonna restart my 100 days of code...actually, I'll just continue cuz it's not like I have to end after 100 days, I'll just use this as a simple log.
